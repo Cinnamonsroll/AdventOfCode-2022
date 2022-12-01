@@ -1,5 +1,5 @@
 const { readFileSync } = require("node:fs");
-const input = readFileSync("./input.txt", "utf-8").split("\n");
+const input = readFileSync("../input.txt", "utf-8").split("\n");
 const final = [];
 for (let i = 0, a = []; i < input.length; i++) {
   const line = input[i];
