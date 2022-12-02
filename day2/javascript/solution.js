@@ -1,7 +1,7 @@
 const {
     readFileSync
 } = require("node:fs");
-const input = readFileSync("./input.txt", "utf-8").split("\n");
+const input = readFileSync("../input.txt", "utf-8").split("\n");
 let totalScore = 0;
 const Shapes = {
     1: ["A", "X"],
