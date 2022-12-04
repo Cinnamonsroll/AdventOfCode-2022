@@ -1,7 +1,7 @@
 const {
   readFileSync
 } = require("node:fs");
-const input = readFileSync("./input.txt", "utf-8").match(/(\w+(\n)?){3}/g);
+const input = readFileSync("../input.txt", "utf-8").match(/(\w+(\n)?){3}/g);
 
 let priority = 0;
 const getPriority = (char) => {
